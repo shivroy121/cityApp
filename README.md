@@ -18,6 +18,11 @@ How to Run
 ![image](https://user-images.githubusercontent.com/21003713/178056046-bdb9a0b4-fe62-4434-9e39-1d71f4475d68.png)
 
 
-4 ) Before login to the application make sure you have clone the backend application and runing in local
+4 ) Before login to the application make sure you have clone the backend application and runing in local ( clone form this application :- https://github.com/shivroy121/city-app )
+
+5) Login with username & password with admin/admin
+
+![image](https://user-images.githubusercontent.com/21003713/178056461-7bb0c710-a8dd-4684-a2a6-5bff76cdd900.png)
+
 
 
