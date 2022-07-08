@@ -1,0 +1,22 @@
+<div class="col-md-12">
+  <table class="table table-striped">
+  <thead>
+  <tr>
+    <th>city id</th>
+    <th>name</th>
+    <th>photo</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let city of citys | paginate: { itemsPerPage: 10, currentPage: p } ">
+          <td>{{city.cityId}}</td>
+          <td>{{city.name}}</td>
+          <td><img src="{{city.photo}}" alt="alternatetext"></td>
+          <td><button class="btn btn-danger" (click)="deleteCity(city)"> Delete City</button></td>
+      </tr>
+      
+  </tbody>
+ 
+  </table>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

@@ -1,0 +1,11 @@
+.footer {
+    bottom: 0;
+    width:100%;
+    height: 2rem;
+    background-color: #222222;
+}
+	
+.text-muted{
+    color: #6c757d!important;
+    margin-left: 28rem;
+}
